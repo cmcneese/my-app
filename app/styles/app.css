@@ -1,0 +1,23 @@
+* {
+  background: #ccd5d8;
+}
+
+a {
+  text-decoration: none;
+}
+.section {
+  padding: 1rem;
+  background: #656267;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+/**/
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
