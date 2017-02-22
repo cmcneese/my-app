@@ -1,5 +1,5 @@
 * {
-  background: black;
+  background: rgb(79, 79, 79);
 }
 
 a {
@@ -7,7 +7,7 @@ a {
 }
 .section {
   padding: 1rem;
-  background: #656267;
+  background: rgb(153, 153, 153);
 }
 
 .container {
@@ -16,18 +16,35 @@ a {
 }
 
 /**/
-.nav-bar {
+.navigation {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.top-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 1rem;
 }
-&__left {
+
+.lower-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.left-button {
+  text-decoration: none;
+  color: red;
+
+}
+
+.right-button {
   text-decoration: none;
   color: red;
 }
 
-&__right {
+.lower-nav {
 
-}
 }

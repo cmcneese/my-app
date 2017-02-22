@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My Portfolio</title>
+    <title>Chris McNeese</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,21 +16,32 @@
   </head>
   <body>
     {{content-for "body"}}
-  <div class="nav-bar">
-    <div class="nav-bar__left">
-      <a href="/"> Chris McNeese </a>
+  <!-- <div class="nav-bar"> -->
+  <div class="navigation">
+    <section class="top-nav">
+        <div class="conatainer">
+        <a class="left-button" href="/"> Software Craftsman </a>
 
+      </div>
+    </section>
+    <div class="section__main">
+      STUFF
     </div>
-    <div class="nav-bar__right">
+      <section class="lower-nav">
+        <div class="container">
 
-        <a href="/"> Blog</a>
+            <a class="right-button" href="/"> Blog |</a>
+            <a class="right-button" href="/"> About |</a>
+            <a class="right-button" href="/"> Contact </a>
 
-        <a href="/"> About </a>
-
-        <a href="/"> Contact </a>
-
-    </div>
+        </div>
+      </section>
   </div>
+
+        </div>
+      </section>
+  </div>
+  <!-- </div> -->
     <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/my-app.js"></script>
 
