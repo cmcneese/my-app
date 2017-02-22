@@ -18,6 +18,16 @@ a {
 /**/
 .nav-bar {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding: 1rem;
+}
+&__left {
+  text-decoration: none;
+  color: red;
+}
+
+&__right {
+
+}
 }
